@@ -5,7 +5,6 @@ import FormControl from '@mui/material/FormControl';
 import Dropdown from "../Dropdown/Dropdown";
 
 const LocationDropdown = React.memo(({ cities, onChange }) => {
-    console.log('cities >>>', JSON.stringify(cities));
     return (
         <div data-testid="location-dropdown-cont-id">
             <FormControl sx={{ m: 1, width: 300 }}>
