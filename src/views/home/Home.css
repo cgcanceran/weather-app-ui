@@ -1,0 +1,114 @@
+.App {
+  min-height: 100vh;
+  background-color: #E3EEF1;
+  text-align: center;
+}
+
+.App-logo {
+  height: 16vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.weather-widget-cont {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to right bottom, rgb(1, 129, 194), rgb(4, 167, 249), rgb(75, 196, 247));
+  border-radius: 5px 5px 5px 5px;
+  height: 320px;
+  align-self: center;
+  width: 500px;
+  font-size: 13px;
+  font-family: Helvetica, sans-serif;
+  box-shadow: rgb(50 50 50 / 50%) 0px 3px 6px 0px;
+  display: flex;
+  margin: auto;
+}
+
+.left-cont {
+  width: 60%;
+  padding: 25px;
+  height: 88%;
+}
+
+.right-cont {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  color: rgb(181, 222, 244);
+}
+
+.location-header {
+  font-size: 16px;
+  margin: 0px 0px 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.panel-divider {
+  width: 100%;
+  height: 0px;
+  margin: 10px 0px;
+  opacity: 0.4;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.current-temp {
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  display: block;
+}
+
+.range-temp {
+  margin: 0px 0px 5px 2px;
+  font-size: 12px;
+  display: block;
+}
+
+.weather-desc {
+  font-size: 16px;
+  display: block;
+}
+
+.other-weather-info {
+  display: block;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}

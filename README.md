@@ -1,11 +1,21 @@
-# Getting Started with Create React App
+# Simple Weather Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is demo project that contains a simple Weather Widget.
+This how it looks like.
+![Application](./public/application.png)
+## Pre-requisite
 
+- Node should be installed (this application is tested in version 16.17.0).
+ 
 ## Available Scripts
 
+(After cloning this application)
 In the project directory, you can run:
 
+First thing to run to download all application and dev dependencies.
+### `npm install`
+
+Then to start the application.
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -41,7 +51,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React Home documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
@@ -53,7 +63,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Making a Progressive Web Home
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
